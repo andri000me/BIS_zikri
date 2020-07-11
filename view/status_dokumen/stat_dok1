@@ -1,0 +1,9 @@
+<?php
+
+$con    = mysqli_connect('localhost','root','','new_sewakantor');
+// $id     = $_POST['status_dokumen1'];
+$sql    = mysqli_query($con, "UPDATE tbl_dokumen SET status_dokumen1 = 2 ");
+
+// $result = $con->query($sql);
+// return $query;
+?>
